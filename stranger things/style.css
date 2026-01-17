@@ -25,7 +25,7 @@ body{
     z-index: -1;
     overflow: hidden;
 }
-.background-layer-visible{
+.background-layer.visible{
     opacity: 1;
 }
 .background-layer{
@@ -36,6 +36,8 @@ body{
     height:100%;
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+
 
     filter:blur(30px) brightness(0.5);
     transform: scale(1,3);
